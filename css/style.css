@@ -1,0 +1,26 @@
+/* تصميم عصري للمهندسين */
+body {
+    font-family: 'Cairo', sans-serif;
+    scroll-behavior: smooth;
+    background: #0f172a;
+    background-image: 
+        radial-gradient(at 0% 0%, rgba(30, 64, 175, 0.3) 0, transparent 50%), 
+        radial-gradient(at 100% 100%, rgba(30, 58, 138, 0.3) 0, transparent 50%);
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.glass-card:hover {
+    transform: translateY(-10px);
+    border-color: #3b82f6;
+    background: rgba(59, 130, 246, 0.05);
+}
